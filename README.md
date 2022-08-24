@@ -23,9 +23,7 @@ The plate is 182mm wide, 70mm long and 1.2mm high. You can download the stl file
 - https://docs.qmk.fm/#/hand_wire?id=hand-wiring-guide
 - Is not as hard on this keyboard since it has fewer keys and is ortholinear
 - Note down which rows and columns go to which pin on the microcontroller, this should be updated in the MATRIX variables in `/qmk/config.h`.
-
-![image of keyboard soldered rows and columns](/img/br%C3%A6t-soldered-rows-and-columns.jpg)
-![image of keyboard soldering finished](/img/br%C3%A6t-soldered-to-microcontroller.jpg)
+- Take a look at images in the bottom of the readme to see how I did it.
 
 ## Firmware
 - For setting up the keyboard in QMK you can update the `rules.mk` and `config.h` files in `/handwired/pilcrow`.
@@ -34,3 +32,7 @@ The plate is 182mm wide, 70mm long and 1.2mm high. You can download the stl file
 - For flashing the Elite-C microcontroller you need to install QMK Toolbox, then when it is open you need to plug in the keyboard and short the `reset` and `ground` pins. This will put it into bootloader mode and QMK Toolbox should be able to find the keyboard. Then you just select the compiled firmware and start flashing.
 
 
+## Reference images for handwiring
+
+![image of keyboard soldered rows and columns](/img/br%C3%A6t-soldered-rows-and-columns.jpg)
+![image of keyboard soldering finished](/img/br%C3%A6t-soldered-to-microcontroller.jpg)
