@@ -19,8 +19,10 @@ You do not need to order any PCB or case for this. It also only has 40 keys, so 
 The plate is 182mm wide, 70mm long and 1.2mm high. You can download the stl file from the file list above.
 
 ## Handwiring 
-There are many quides for
-https://docs.qmk.fm/#/hand_wire?id=hand-wiring-guide
+- I used this guide to learn how to handwire. 
+- https://docs.qmk.fm/#/hand_wire?id=hand-wiring-guide
+- Is not as hard on this keyboard since it has fewer keys and is ortholinear
+- Note down which rows and columns go to which pin on the microcontroller, this should be updated in the MATRIX variables in `/qmk/config.h`.
 
 ![image of keyboard soldered rows and columns](/img/br%C3%A6t-soldered-rows-and-columns.jpg)
 ![image of keyboard soldering finished](/img/br%C3%A6t-soldered-to-microcontroller.jpg)
