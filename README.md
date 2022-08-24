@@ -1,4 +1,7 @@
 # Braet
+![image of finished keyboard](/img/br%C3%A6t-finished.jpg)
+
+
 A minimalistic 4x10 ortholinear handwired keyboard. Supports both MX or Choc spacing.
 
 Aim of this keyboard is to be cheap and easy to make and modify it yourself. 
@@ -19,9 +22,13 @@ The plate is 182mm wide, 70mm long and 1.2mm high. You can download the stl file
 There are many quides for
 https://docs.qmk.fm/#/hand_wire?id=hand-wiring-guide
 
+![image of keyboard soldered rows and columns](/img/br%C3%A6t-soldered-rows-and-columns.jpg)
+![image of keyboard soldering finished](/img/br%C3%A6t-soldered-to-microcontroller.jpg)
+
 ## Firmware
 - For setting up the keyboard in QMK you can update the `rules.mk` and `config.h` files in `/handwired/pilcrow`.
 - After that you can use the default layout from the pilcrow and compile the firmware with `qmk compile -kb handwired/pilcrow -km default
 `.
-- For flashing the Elite-C microcontroller you need to install QMK Toolbox, then when it is open you need to plug in the keyboard and short the `res` and `ground` pins. This will put it into bootloader mode and QMK Toolbox should be able to find the keyboard. Then you just select the compiled firmware and start flashing.
+- For flashing the Elite-C microcontroller you need to install QMK Toolbox, then when it is open you need to plug in the keyboard and short the `reset` and `ground` pins. This will put it into bootloader mode and QMK Toolbox should be able to find the keyboard. Then you just select the compiled firmware and start flashing.
+
 
