@@ -1,5 +1,5 @@
 # Braet
-![image of finished keyboard](/img/br%C3%A6t-finished.jpg)
+![image of finished keyboard](/img/braet-finished.jpg)
 
 
 A minimalistic 4x10 ortholinear handwired keyboard. Supports both MX or Choc spacing.
@@ -34,5 +34,5 @@ The plate is 182mm wide, 70mm long and 1.2mm high. You can download the stl file
 
 ## Reference images for handwiring
 
-![image of keyboard soldered rows and columns](/img/br%C3%A6t-soldered-rows-and-columns.jpg)
-![image of keyboard soldering finished](/img/br%C3%A6t-soldered-to-microcontroller.jpg)
+![image of keyboard soldered rows and columns](/img/braet-soldered-rows-and-columns.jpg)
+![image of keyboard soldering finished](/img/braet-soldered-to-microcontroller.jpg)
