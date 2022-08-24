@@ -1,16 +1,16 @@
 # Braet
 A minimalistic 4x10 ortholinear low profile handwired keyboard
 
-Aim of this keyboard is to be cheap and easy to make it yourself. 
-You do not need to order any PCB or case for this. It also only has 40 keys, so besides tools, all you need to create this is:
+Aim of this keyboard is to be cheap and easy to make and modify it yourself. 
+You do not need to order any PCB or case for this. It also only has 40 keys, so besides soldering tools, all you need to create this is:
  - 1x Elite-C microcontroller
  - 40x Kailh Low Profile Choc Switches
  - 40x Choc Low Profile Keycaps 
  - 40x 1N4148 diodes
- - 18x M2(2mm) spacers/standoffs 
+ - 18x M2(2mm) spacers/standoffs
  - 3D printed plate
  - Laser cut bottom plate. 3mm wood or acrylic
- - Some solid core wire. Preferably 22-26 gauge
+ - 22-26 gauge solid core wire
 
 ## 3D printing the plate
 The plate is 182mm wide, 70mm long and 1.2mm high. You can download the stl file from the file list above.
